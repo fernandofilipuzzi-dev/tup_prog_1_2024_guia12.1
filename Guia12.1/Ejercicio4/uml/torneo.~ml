@@ -57,10 +57,10 @@
 <XPD:OBJ name="OwnedViews[0]" type="UMLClassView" guid="WoVhRUAAgkS8CyMb1gqpSQAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Left" type="integer">384</XPD:ATTR>
-<XPD:ATTR name="Top" type="integer">68</XPD:ATTR>
-<XPD:ATTR name="Width" type="integer">311</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">129</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">388</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">72</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">310</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">173</XPD:ATTR>
 <XPD:REF name="Model">guPORIIpdUmLgnTrAHGhjQAA</XPD:REF>
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="bdwL9d5/lkS9w/vOwtjzuwAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="6J0/Paj1SkyOi3nTcNVaugAA">
@@ -98,48 +98,62 @@
 <XPD:REF name="Views[3]">dzfE0vU1ike3ZY4R1aMRaAAA</XPD:REF>
 <XPD:ATTR name="#Operations" type="integer">2</XPD:ATTR>
 <XPD:OBJ name="Operations[0]" type="UMLOperation" guid="ubHK8JY0CUuzn8r1qUUh8QAA">
-<XPD:ATTR name="Name" type="string">InscribirJugador</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">RegistrarVehículo</XPD:ATTR>
 <XPD:REF name="Owner">guPORIIpdUmLgnTrAHGhjQAA</XPD:REF>
-<XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="3T2IfZgKd0GDezJWv5q1ugAA">
-<XPD:ATTR name="Name" type="string">nombre</XPD:ATTR>
+<XPD:ATTR name="#Parameters" type="integer">3</XPD:ATTR>
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="fUekRCV3DkeJnxLWKp+XyQAA">
+<XPD:ATTR name="Name" type="string">Patente</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">string</XPD:ATTR>
+<XPD:REF name="BehavioralFeature">ubHK8JY0CUuzn8r1qUUh8QAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="lmaFg5kJDUGhKjQhTFHeYgAA">
+<XPD:ATTR name="Name" type="string">tipo</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">int</XPD:ATTR>
+<XPD:REF name="BehavioralFeature">ubHK8JY0CUuzn8r1qUUh8QAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Parameters[2]" type="UMLParameter" guid="O1BKH9ZPhki1+qXH9n9Q+gAA">
+<XPD:ATTR name="Name" type="string">esElectrico</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">bool</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">ubHK8JY0CUuzn8r1qUUh8QAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="Operations[1]" type="UMLOperation" guid="a+nd/M40B0Kmyt1nrjj2ywAA">
-<XPD:ATTR name="Name" type="string">AnotarResultadosPartido</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">ListarElectricosOrdenados</XPD:ATTR>
 <XPD:REF name="Owner">guPORIIpdUmLgnTrAHGhjQAA</XPD:REF>
-<XPD:ATTR name="#Parameters" type="integer">2</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="tvcO9pIawk+B4fA/4qrOzAAA">
-<XPD:ATTR name="Name" type="string">numeroJugador</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">int</XPD:ATTR>
-<XPD:REF name="BehavioralFeature">a+nd/M40B0Kmyt1nrjj2ywAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="q0q5saCX0kC5locUw2c/+wAA">
-<XPD:ATTR name="Name" type="string">resultado</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">int</XPD:ATTR>
-<XPD:REF name="BehavioralFeature">a+nd/M40B0Kmyt1nrjj2ywAA</XPD:REF>
-</XPD:OBJ>
-</XPD:OBJ>
-<XPD:ATTR name="#Attributes" type="integer">4</XPD:ATTR>
+<XPD:ATTR name="#Attributes" type="integer">7</XPD:ATTR>
 <XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="YcwU80IQzE2pLeFPmVjq7gAA">
-<XPD:ATTR name="Name" type="string">Nombres</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">Patentes</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">string[]</XPD:ATTR>
 <XPD:REF name="Owner">guPORIIpdUmLgnTrAHGhjQAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[1]" type="UMLAttribute" guid="Vx2npWIvuUStVEQc1064BwAA">
-<XPD:ATTR name="Name" type="string">Puntos</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">int[,]</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">TiposVehículos</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">int[]</XPD:ATTR>
 <XPD:REF name="Owner">guPORIIpdUmLgnTrAHGhjQAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[2]" type="UMLAttribute" guid="Bcosiho+HUKQN7vnNwR/fAAA">
-<XPD:ATTR name="Name" type="string">ContadorJugadores</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">int</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">TiposVehículos</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">bool[]</XPD:ATTR>
 <XPD:REF name="Owner">guPORIIpdUmLgnTrAHGhjQAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[3]" type="UMLAttribute" guid="kr8pDbu4aESddA9W0hYgrwAA">
-<XPD:ATTR name="Name" type="string">ContadorPartidos</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">Contador</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">int</XPD:ATTR>
+<XPD:REF name="Owner">guPORIIpdUmLgnTrAHGhjQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[4]" type="UMLAttribute" guid="HuiaIkE0KkGt9UvIpOxmTAAA">
+<XPD:ATTR name="Name" type="string">PatentesElectricos</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">string[]</XPD:ATTR>
+<XPD:REF name="Owner">guPORIIpdUmLgnTrAHGhjQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[5]" type="UMLAttribute" guid="rEunAnSzPUqPXHBuquMSIQAA">
+<XPD:ATTR name="Name" type="string">TiposVehiculosElectricos</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">bool[]</XPD:ATTR>
+<XPD:REF name="Owner">guPORIIpdUmLgnTrAHGhjQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[6]" type="UMLAttribute" guid="Vpt+A+Af20Kw1kZhVINfAAAA">
+<XPD:ATTR name="Name" type="string">ContadorElectricos</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">int</XPD:ATTR>
 <XPD:REF name="Owner">guPORIIpdUmLgnTrAHGhjQAA</XPD:REF>
 </XPD:OBJ>

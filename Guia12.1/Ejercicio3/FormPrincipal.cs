@@ -38,7 +38,7 @@ namespace Ejercicio3
         {
             FormVer fVer = new FormVer();
 
-            string pais = tbBusccar.Text;
+            string pais = cbBuscar.Text;
 
             controlador.BuscarPorOrigen(pais);
 

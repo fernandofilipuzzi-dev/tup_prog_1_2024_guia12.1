@@ -30,16 +30,16 @@
         {
             this.btnAgregarCompetidor = new System.Windows.Forms.Button();
             this.btnBuscar = new System.Windows.Forms.Button();
-            this.tbBusccar = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label2 = new System.Windows.Forms.Label();
             this.VerListado = new System.Windows.Forms.Button();
+            this.cbBuscar = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnAgregarCompetidor
             // 
-            this.btnAgregarCompetidor.Location = new System.Drawing.Point(35, 14);
+            this.btnAgregarCompetidor.Location = new System.Drawing.Point(13, 14);
             this.btnAgregarCompetidor.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnAgregarCompetidor.Name = "btnAgregarCompetidor";
             this.btnAgregarCompetidor.Size = new System.Drawing.Size(141, 52);
@@ -50,7 +50,7 @@
             // 
             // btnBuscar
             // 
-            this.btnBuscar.Location = new System.Drawing.Point(169, 36);
+            this.btnBuscar.Location = new System.Drawing.Point(162, 36);
             this.btnBuscar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(141, 52);
@@ -59,21 +59,14 @@
             this.btnBuscar.UseVisualStyleBackColor = true;
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
-            // tbBusccar
-            // 
-            this.tbBusccar.Location = new System.Drawing.Point(53, 53);
-            this.tbBusccar.Name = "tbBusccar";
-            this.tbBusccar.Size = new System.Drawing.Size(100, 20);
-            this.tbBusccar.TabIndex = 5;
-            // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.cbBuscar);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.tbBusccar);
             this.groupBox1.Controls.Add(this.btnBuscar);
-            this.groupBox1.Location = new System.Drawing.Point(35, 84);
+            this.groupBox1.Location = new System.Drawing.Point(13, 84);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(328, 100);
+            this.groupBox1.Size = new System.Drawing.Size(310, 100);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Ver información Contenedor";
@@ -81,15 +74,15 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(16, 56);
+            this.label2.Location = new System.Drawing.Point(17, 37);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(18, 13);
+            this.label2.Size = new System.Drawing.Size(63, 13);
             this.label2.TabIndex = 8;
-            this.label2.Text = "ID";
+            this.label2.Text = "País Origen";
             // 
             // VerListado
             // 
-            this.VerListado.Location = new System.Drawing.Point(204, 14);
+            this.VerListado.Location = new System.Drawing.Point(182, 14);
             this.VerListado.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.VerListado.Name = "VerListado";
             this.VerListado.Size = new System.Drawing.Size(141, 52);
@@ -98,11 +91,26 @@
             this.VerListado.UseVisualStyleBackColor = true;
             this.VerListado.Click += new System.EventHandler(this.VerListado_Click);
             // 
+            // cbBuscar
+            // 
+            this.cbBuscar.FormattingEnabled = true;
+            this.cbBuscar.Items.AddRange(new object[] {
+            "Argentina",
+            "China",
+            "Alemania",
+            "Japón",
+            "España",
+            "Portugal"});
+            this.cbBuscar.Location = new System.Drawing.Point(20, 53);
+            this.cbBuscar.Name = "cbBuscar";
+            this.cbBuscar.Size = new System.Drawing.Size(121, 21);
+            this.cbBuscar.TabIndex = 11;
+            // 
             // FormPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(378, 201);
+            this.ClientSize = new System.Drawing.Size(334, 201);
             this.Controls.Add(this.VerListado);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnAgregarCompetidor);
@@ -118,10 +126,10 @@
 
         private System.Windows.Forms.Button btnAgregarCompetidor;
         private System.Windows.Forms.Button btnBuscar;
-        private System.Windows.Forms.TextBox tbBusccar;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button VerListado;
+        public System.Windows.Forms.ComboBox cbBuscar;
     }
 }
 
