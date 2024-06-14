@@ -1,4 +1,4 @@
-﻿namespace Ejercicio2
+﻿namespace Ejercicio2_PuntoDeControl
 {
     partial class FormPrincipal
     {
@@ -32,7 +32,7 @@
             this.tbPatente = new System.Windows.Forms.TextBox();
             this.btnRegistrar = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.cbkEsElectrico = new System.Windows.Forms.CheckBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
@@ -71,7 +71,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.checkBox1);
+            this.groupBox1.Controls.Add(this.cbkEsElectrico);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.btnRegistrar);
             this.groupBox1.Controls.Add(this.label1);
@@ -84,15 +84,15 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos de Ingreso";
             // 
-            // checkBox1
+            // cbkEsElectrico
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(145, 103);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(93, 17);
-            this.checkBox1.TabIndex = 5;
-            this.checkBox1.Text = "¿Es eléctrico?";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.cbkEsElectrico.AutoSize = true;
+            this.cbkEsElectrico.Location = new System.Drawing.Point(145, 103);
+            this.cbkEsElectrico.Name = "cbkEsElectrico";
+            this.cbkEsElectrico.Size = new System.Drawing.Size(93, 17);
+            this.cbkEsElectrico.TabIndex = 5;
+            this.cbkEsElectrico.Text = "¿Es eléctrico?";
+            this.cbkEsElectrico.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
@@ -120,6 +120,7 @@
             this.button1.TabIndex = 4;
             this.button1.Text = "Ver Estadista";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // FormPrincipal
             // 
@@ -143,7 +144,7 @@
         private System.Windows.Forms.Button btnRegistrar;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox cbkEsElectrico;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
     }

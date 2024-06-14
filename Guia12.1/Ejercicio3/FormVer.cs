@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Ejercicio2_PuntoDeControl
+namespace Ejercicio3
 {
-    public partial class FormResultados : Form
+    public partial class FormVer : Form
     {
-        public FormResultados()
+        public FormVer()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

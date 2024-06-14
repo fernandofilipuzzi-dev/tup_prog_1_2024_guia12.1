@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{340EA977-3103-4E42-8578-B0C00817F790}</ProjectGuid>
+    <ProjectGuid>{BBEA1E1C-4CCC-4EA9-A2D6-0464520EFDDF}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WindowsFormsApp22</RootNamespace>
-    <AssemblyName>WindowsFormsApp22</AssemblyName>
+    <RootNamespace>Ejercicio4</RootNamespace>
+    <AssemblyName>Ejercicio4</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -52,21 +52,9 @@
     <Compile Include="FormPrincipal.Designer.cs">
       <DependentUpon>FormPrincipal.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormResultados.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormResultados.Designer.cs">
-      <DependentUpon>FormResultados.cs</DependentUpon>
-    </Compile>
     <Compile Include="Models\Controlador.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormPrincipal.resx">
-      <DependentUpon>FormPrincipal.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormResultados.resx">
-      <DependentUpon>FormResultados.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -85,14 +73,13 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="uml\punto_de_control.uml" />
+    <None Include="uml\torneo.uml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <Content Include="uml\punto_de_control.jpg" />
+    <Content Include="uml\torneo.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
