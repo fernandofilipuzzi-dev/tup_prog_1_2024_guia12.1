@@ -10,30 +10,62 @@ namespace Ejercicio2_PuntoDeControl.Models
     {
         public string[] Patentes=new string[1000];
         public int [] TiposVehículos = new int[1000];
+        public int [] Modelos = new int[1000];
         public bool[] EsElectrico = new bool[1000];
         public int Contador = 0;
 
-        public void RegistrarVehículo(string patente, int tipo, bool esElectrico)
+        public void RegistrarVehículo(string patente, int tipo, int modelo, bool esElectrico)
         {
             Patentes[Contador] = patente;
             TiposVehículos[Contador] = tipo;
-            EsElectrico[Contador] = esElectrico;
+            Modelos[Contador] = modelo;
+            EsElectrico[Contador] = esElectrico;           
             Contador++;
         }
 
         public string[] PatentesElectricos = new string[1000];
         public int[] TiposVehículosElectricos = new int[1000];
+        public int[] ModelosElectricos = new int[1000];
         public int ContadorElectricos = 0;
-        public void ListarElectricosOrdenados() 
+
+        public void ListarElectricosOrdenadosPorModelo() 
         {
             ContadorElectricos = 0;//es importante poner en cero aquí
+
             for (int n = 0; n < Contador; n++) 
             {
                 if (EsElectrico[n] == true)
                 {
                     PatentesElectricos[ContadorElectricos] = Patentes[n];
+                    ModelosElectricos[ContadorElectricos] = Modelos[n];
                     TiposVehículosElectricos[ContadorElectricos] = TiposVehículosElectricos[n];
                     ContadorElectricos++;//no olvidarse este detallito
+                }
+            }
+
+            OrdenarElectricos();
+        }
+
+        public void OrdenarElectricos()
+        {
+            for (int n = 0; n < ContadorElectricos - 1; n++)
+            {
+                for (int m = n + 1; m < ContadorElectricos; m++)
+                {
+                    if (ModelosElectricos[n] > ModelosElectricos[m])
+                    {
+                        string patente = PatentesElectricos[m];
+                        PatentesElectricos[m] = PatentesElectricos[n];
+                        PatentesElectricos[n] = patente;
+
+                        int modelo = ModelosElectricos[m];
+                        ModelosElectricos[m] = ModelosElectricos[n];
+                        ModelosElectricos[n] = modelo;
+
+                        int tipoVehículomodelo = TiposVehículosElectricos[m];
+                        TiposVehículosElectricos[m] = TiposVehículosElectricos[n];
+                        TiposVehículosElectricos[n] = tipoVehículomodelo;
+                    }
                 }
             }
         }
