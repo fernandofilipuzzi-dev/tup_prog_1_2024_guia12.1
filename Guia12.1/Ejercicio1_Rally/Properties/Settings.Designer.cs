@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Ejemplo1.Properties {
+namespace Ejercicio1_Rally.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

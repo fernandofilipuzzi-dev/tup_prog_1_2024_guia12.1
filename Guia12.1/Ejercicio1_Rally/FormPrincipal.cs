@@ -1,4 +1,4 @@
-﻿using Ejemplo1.Models;
+﻿using Ejercicio1_Rally.Models;
 using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Ejemplo1
+namespace Ejercicio1_Rally
 {
     public partial class FormPrincipal : Form
     {

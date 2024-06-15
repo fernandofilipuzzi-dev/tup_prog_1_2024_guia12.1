@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Ejercicio1_Rally
+namespace Ejercicio4_Torneo
 {
-    public partial class FormCargarTiempos : Form
+    public partial class FormPuntosTorneo : Form
     {
-        public FormCargarTiempos()
+        public FormPuntosTorneo()
         {
             InitializeComponent();
         }

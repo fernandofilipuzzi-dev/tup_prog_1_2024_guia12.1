@@ -1,4 +1,4 @@
-﻿namespace Ejemplo1
+﻿namespace Ejercicio1_Rally
 {
     partial class FormRegistrarCompetidor
     {

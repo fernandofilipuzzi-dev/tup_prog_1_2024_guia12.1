@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Ejemplo1
+namespace Ejercicio1_Rally
 {
     public partial class FormVerResultado : Form
     {

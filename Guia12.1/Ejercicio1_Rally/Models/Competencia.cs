@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ejemplo1.Models
+namespace Ejercicio1_Rally.Models
 {
     public class Competencia
     {

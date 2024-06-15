@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Ejercicio1_Rally
+namespace Ejercicio4_Torneo
 {
-    public partial class FormCargarTiempos : Form
+    public partial class FormInscribirCompetidor : Form
     {
-        public FormCargarTiempos()
+        public FormInscribirCompetidor()
         {
             InitializeComponent();
+        }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

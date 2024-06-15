@@ -5,11 +5,11 @@ VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio1_Rally", "Ejercicio1_Rally\Ejercicio1_Rally.csproj", "{C8F112BF-E9F7-46A4-A23E-E2C36F46D882}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio2_PuntoDeControl", "Ejercicio2\Ejercicio2_PuntoDeControl.csproj", "{340EA977-3103-4E42-8578-B0C00817F790}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio2_PuntoDeControl", "Ejercicio2_PuntoDeControl\Ejercicio2_PuntoDeControl.csproj", "{340EA977-3103-4E42-8578-B0C00817F790}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio3_ControlEmbarque", "Ejercicio3\Ejercicio3_ControlEmbarque.csproj", "{4A33E8B1-224D-4B06-9EF2-783F095608CA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio3_ControlEmbarque", "Ejercicio3_ControlEmbarque\Ejercicio3_ControlEmbarque.csproj", "{4A33E8B1-224D-4B06-9EF2-783F095608CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio4_Torneo", "Ejercicio4\Ejercicio4_Torneo.csproj", "{BBEA1E1C-4CCC-4EA9-A2D6-0464520EFDDF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio4_Torneo", "Ejercicio4_Torneo\Ejercicio4_Torneo.csproj", "{BBEA1E1C-4CCC-4EA9-A2D6-0464520EFDDF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

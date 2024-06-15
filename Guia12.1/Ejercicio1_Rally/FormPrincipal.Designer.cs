@@ -1,4 +1,4 @@
-﻿namespace Ejemplo1
+﻿namespace Ejercicio1_Rally
 {
     partial class FormPrincipal
     {
@@ -70,7 +70,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(346, 245);
+            this.ClientSize = new System.Drawing.Size(346, 225);
             this.Controls.Add(this.btnAgregarCompetidor);
             this.Controls.Add(this.btnCargarTiempos);
             this.Controls.Add(this.btnVerResultados);
