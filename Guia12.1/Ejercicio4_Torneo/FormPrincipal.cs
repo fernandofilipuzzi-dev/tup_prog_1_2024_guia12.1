@@ -87,7 +87,7 @@ namespace Ejercicio4_Torneo
 
             FormResultados fVer = new FormResultados();
 
-            int[] puntos = controlador.ListarPuntosPorJugador(nroPartido);
+            int[] puntos = controlador.ListarPuntosPorPartido(nroPartido);
 
             #region inicialización ventana
             fVer.lbxResultados.Items.Add($"Partido: {nroPartido}");
