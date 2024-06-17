@@ -11,7 +11,7 @@ namespace Ejercicio2_PuntoDeControl.Models
         public string[] Patentes=new string[1000];
         public int [] TiposVehículos = new int[1000];
         public int [] Modelos = new int[1000];
-        public bool[] EsElectrico = new bool[1000];
+        public bool[] SonElectricos = new bool[1000];
         public int Contador = 0;
 
         public void RegistrarVehículo(string patente, int tipo, int modelo, bool esElectrico)
@@ -19,7 +19,7 @@ namespace Ejercicio2_PuntoDeControl.Models
             Patentes[Contador] = patente;
             TiposVehículos[Contador] = tipo;
             Modelos[Contador] = modelo;
-            EsElectrico[Contador] = esElectrico;           
+            SonElectricos[Contador] = esElectrico;           
             Contador++;
         }
 
@@ -34,7 +34,7 @@ namespace Ejercicio2_PuntoDeControl.Models
 
             for (int n = 0; n < Contador; n++) 
             {
-                if (EsElectrico[n] == true)
+                if (SonElectricos[n] == true)
                 {
                     PatentesElectricos[ContadorElectricos] = Patentes[n];
                     ModelosElectricos[ContadorElectricos] = Modelos[n];

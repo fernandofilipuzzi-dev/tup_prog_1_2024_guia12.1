@@ -57,10 +57,10 @@
 <XPD:OBJ name="OwnedViews[0]" type="UMLClassView" guid="WoVhRUAAgkS8CyMb1gqpSQAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Left" type="integer">388</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">384</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">72</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">310</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">186</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">199</XPD:ATTR>
 <XPD:REF name="Model">guPORIIpdUmLgnTrAHGhjQAA</XPD:REF>
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="bdwL9d5/lkS9w/vOwtjzuwAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="6J0/Paj1SkyOi3nTcNVaugAA">
@@ -121,7 +121,7 @@
 <XPD:ATTR name="Name" type="string">ListarElectricosOrdenados</XPD:ATTR>
 <XPD:REF name="Owner">guPORIIpdUmLgnTrAHGhjQAA</XPD:REF>
 </XPD:OBJ>
-<XPD:ATTR name="#Attributes" type="integer">9</XPD:ATTR>
+<XPD:ATTR name="#Attributes" type="integer">10</XPD:ATTR>
 <XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="YcwU80IQzE2pLeFPmVjq7gAA">
 <XPD:ATTR name="Name" type="string">Patentes</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">string[]</XPD:ATTR>
@@ -133,13 +133,13 @@
 <XPD:REF name="Owner">guPORIIpdUmLgnTrAHGhjQAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[2]" type="UMLAttribute" guid="Bcosiho+HUKQN7vnNwR/fAAA">
-<XPD:ATTR name="Name" type="string">TiposVehículos</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">SonElectricos</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">bool[]</XPD:ATTR>
 <XPD:REF name="Owner">guPORIIpdUmLgnTrAHGhjQAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[3]" type="UMLAttribute" guid="BwuDxzsOJkWBQwNCjvuwIgAA">
 <XPD:ATTR name="Name" type="string">Modelos</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">int</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">int[]</XPD:ATTR>
 <XPD:REF name="Owner">guPORIIpdUmLgnTrAHGhjQAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[4]" type="UMLAttribute" guid="kr8pDbu4aESddA9W0hYgrwAA">
@@ -147,22 +147,27 @@
 <XPD:ATTR name="TypeExpression" type="string">int</XPD:ATTR>
 <XPD:REF name="Owner">guPORIIpdUmLgnTrAHGhjQAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Attributes[5]" type="UMLAttribute" guid="HuiaIkE0KkGt9UvIpOxmTAAA">
+<XPD:OBJ name="Attributes[5]" type="UMLAttribute" guid="3pAKabv7dEqaNnWdO2hqygAA">
+<XPD:ATTR name="Name" type="string">-</XPD:ATTR>
+<XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
+<XPD:REF name="Owner">guPORIIpdUmLgnTrAHGhjQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[6]" type="UMLAttribute" guid="HuiaIkE0KkGt9UvIpOxmTAAA">
 <XPD:ATTR name="Name" type="string">PatentesElectricos</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">string[]</XPD:ATTR>
 <XPD:REF name="Owner">guPORIIpdUmLgnTrAHGhjQAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Attributes[6]" type="UMLAttribute" guid="rEunAnSzPUqPXHBuquMSIQAA">
+<XPD:OBJ name="Attributes[7]" type="UMLAttribute" guid="rEunAnSzPUqPXHBuquMSIQAA">
 <XPD:ATTR name="Name" type="string">TiposVehiculosElectricos</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">bool[]</XPD:ATTR>
 <XPD:REF name="Owner">guPORIIpdUmLgnTrAHGhjQAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Attributes[7]" type="UMLAttribute" guid="tMgsK/WNwEuMS9l78HwIhAAA">
+<XPD:OBJ name="Attributes[8]" type="UMLAttribute" guid="tMgsK/WNwEuMS9l78HwIhAAA">
 <XPD:ATTR name="Name" type="string">ModelosElectricos</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">int</XPD:ATTR>
 <XPD:REF name="Owner">guPORIIpdUmLgnTrAHGhjQAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Attributes[8]" type="UMLAttribute" guid="Vpt+A+Af20Kw1kZhVINfAAAA">
+<XPD:OBJ name="Attributes[9]" type="UMLAttribute" guid="Vpt+A+Af20Kw1kZhVINfAAAA">
 <XPD:ATTR name="Name" type="string">ContadorElectricos</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">int</XPD:ATTR>
 <XPD:REF name="Owner">guPORIIpdUmLgnTrAHGhjQAA</XPD:REF>
