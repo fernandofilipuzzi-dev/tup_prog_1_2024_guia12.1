@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploConClaseControladora
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploSinClaseControladora", "EjemploSinClaseControladora\EjemploSinClaseControladora.csproj", "{E2DD2552-D6D5-406F-BD49-F0A9B5FE1F12}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio6_Factura", "Ejercicio6_Factura\Ejercicio6_Factura.csproj", "{FDD93858-D7E9-49BA-B5E9-EC2510A48462}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ejemplos basicos", "ejemplos basicos", "{BCFA3015-F85A-4AB2-A85E-B6219DC7959B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,9 +55,17 @@ Global
 		{E2DD2552-D6D5-406F-BD49-F0A9B5FE1F12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2DD2552-D6D5-406F-BD49-F0A9B5FE1F12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2DD2552-D6D5-406F-BD49-F0A9B5FE1F12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDD93858-D7E9-49BA-B5E9-EC2510A48462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDD93858-D7E9-49BA-B5E9-EC2510A48462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDD93858-D7E9-49BA-B5E9-EC2510A48462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDD93858-D7E9-49BA-B5E9-EC2510A48462}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C2915BE4-E6CA-4D69-AE37-3BFA2AC2D6A1} = {BCFA3015-F85A-4AB2-A85E-B6219DC7959B}
+		{E2DD2552-D6D5-406F-BD49-F0A9B5FE1F12} = {BCFA3015-F85A-4AB2-A85E-B6219DC7959B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {43AD8EA0-9CA5-44B2-97D9-9F74E1845EF6}
